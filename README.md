@@ -2,6 +2,20 @@
 
 <img src="media/ObstacleDetectionFPS.gif" width="700" height="400" />
 
+During this project some key algortihms were implemented from scratch e.g:
+  - **RANSAC**
+  - **K-d Tree**
+  - **EucledeanClustering** 
+ 
+ Developed Segmentation of lidar **obstacle detection** thorugh stream of pcd files and performed:
+  - **filtering**
+  - **segmentation**
+  - **clustering**-
+  - **bounding box detection**
+ 
+ 
+ 
+
 ### Welcome to the Sensor Fusion course for self-driving cars.
 
 In this course we will be talking about sensor fusion, whch is the process of taking data from multiple sensors and combining it to give us a better understanding of the world around us. we will mostly be focusing on two sensors, lidar, and radar. By the end we will be fusing the data from these two sensors to track multiple cars on the road, estimating their positions and speed.
