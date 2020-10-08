@@ -4,3 +4,4 @@
 /src/quiz/cluster/cmake-build-debug
 /src/quiz/ransac/build
 /src/quiz/cluster/build
+/src/Makefile
