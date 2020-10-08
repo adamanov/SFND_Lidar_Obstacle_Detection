@@ -67,14 +67,18 @@ chrono
 -
 render/box.h
 /home/adamanov/SFND_Lidar_Obstacle_Detection/src/render/box.h
+unordered_set
+-
+quiz/cluster/kdtree.h
+/home/adamanov/SFND_Lidar_Obstacle_Detection/src/quiz/cluster/kdtree.h
+
+/home/adamanov/SFND_Lidar_Obstacle_Detection/src/quiz/cluster/kdtree.h
+../../render/render.h
+/home/adamanov/SFND_Lidar_Obstacle_Detection/src/render/render.h
 
 /home/adamanov/SFND_Lidar_Obstacle_Detection/src/render/box.h
 Eigen/Geometry
 -
-
-/home/adamanov/SFND_Lidar_Obstacle_Detection/src/render/render.cpp
-render.h
-/home/adamanov/SFND_Lidar_Obstacle_Detection/src/render/render.h
 
 /home/adamanov/SFND_Lidar_Obstacle_Detection/src/render/render.h
 pcl/visualization/pcl_visualizer.h

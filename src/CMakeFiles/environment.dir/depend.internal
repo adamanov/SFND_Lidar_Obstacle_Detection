@@ -5,6 +5,7 @@ CMakeFiles/environment.dir/environment.cpp.o
  /home/adamanov/SFND_Lidar_Obstacle_Detection/src/environment.cpp
  /home/adamanov/SFND_Lidar_Obstacle_Detection/src/processPointClouds.cpp
  /home/adamanov/SFND_Lidar_Obstacle_Detection/src/processPointClouds.h
+ /home/adamanov/SFND_Lidar_Obstacle_Detection/src/quiz/cluster/kdtree.h
  /home/adamanov/SFND_Lidar_Obstacle_Detection/src/render/box.h
  /home/adamanov/SFND_Lidar_Obstacle_Detection/src/render/render.h
  /home/adamanov/SFND_Lidar_Obstacle_Detection/src/sensors/lidar.h
@@ -511,7 +512,9 @@ CMakeFiles/environment.dir/environment.cpp.o
 CMakeFiles/environment.dir/processPointClouds.cpp.o
  /home/adamanov/SFND_Lidar_Obstacle_Detection/src/processPointClouds.cpp
  /home/adamanov/SFND_Lidar_Obstacle_Detection/src/processPointClouds.h
+ /home/adamanov/SFND_Lidar_Obstacle_Detection/src/quiz/cluster/kdtree.h
  /home/adamanov/SFND_Lidar_Obstacle_Detection/src/render/box.h
+ /home/adamanov/SFND_Lidar_Obstacle_Detection/src/render/render.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigenvalues
