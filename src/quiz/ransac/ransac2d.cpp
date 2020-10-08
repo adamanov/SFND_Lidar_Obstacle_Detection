@@ -109,8 +109,13 @@ std::unordered_set<int> Ransac(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, int ma
         float ii = cros_prod[0];
         float jj = cros_prod[1];
         float kk = cros_prod[2];
-        std::complex<float> i,j,k;
-        std::complex<float> d = -(x1*i + j*y1 + k*z1);
+
+        std::complex<float> d = -(x1*ii + jj*y1 + kk*z1);
+        /// Bir usteki benim yazdigim. Altaki ise Mentorun duzeltigi. 
+        //float a = (((y2-y1)*(z3-z1))-((z2-z1)*(y3-y1)));
+        //float b = (((z2-z1)*(x3-x1))-((x2-x1)*(z3-z1)));
+        //float c = (((x2-x1)*(y3-y1))-((y2-y1)*(x3-x1)));
+        //float d = -(a*x1+b*y1+c*z1);
 
         for (int index = 0 ; index <cloud->points.size() ; index ++)
         {
@@ -122,6 +127,7 @@ std::unordered_set<int> Ransac(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, int ma
             float z4 = point.z;
 
             float dist = fabs(ii*x4+jj*y4+kk*z4+d)/sqrt(ii*ii +jj*jj+kk*kk);
+            //float dist = fabs(a*x4+b*y4+c*z4+d)/sqrt(a*a+b*b+c*c);
             if (dist <= distanceTol)
                 inliers.insert(index);
         }

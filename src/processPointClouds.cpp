@@ -392,7 +392,7 @@ std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT
         float jj = cros_prod[1];
         float kk = cros_prod[2];
         std::complex<float> i,j,k;
-        std::complex<float> d = -(x1*i + j*y1 + k*z1);
+        std::complex<float> d = -(x1*ii + jj*y1 + kk*z1);
 
         for (int index = 0 ; index <cloud->points.size() ; index ++)
         {

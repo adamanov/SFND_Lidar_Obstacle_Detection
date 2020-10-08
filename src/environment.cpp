@@ -73,7 +73,7 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
     renderPointCloud(viewer,segmentCloud.second,"cloud_roads",Color(0,1,0));
 
     // 2- Cluster the obstacle cloud
-/*
+
     std::vector<pcl::PointCloud<pcl::PointXYZI>::Ptr> cloudClusters = pointProcessor->Clustering(segmentCloud.first,0.5,50,650);
 
     int clusterId = 0;
@@ -90,10 +90,9 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
         Box box = pointProcessor->BoundingBox(cluster);
         renderBox(viewer,box,clusterId);
         ++clusterId;
-    }*/
+    }
 
 }
-
 
 
 void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
