@@ -23,11 +23,20 @@ During this project some key algortihms were implemented from scratch e.g:
 
 #### 2. Obstacle Detection
 - Bounding boxes enclose appropriate objects.
+```c++
+```
 - Objects are consistently detected across frames in the video.
+```c++
+```
 - Segmentation is implemented in the project.
+```c++
+```
 - Clustering is implemented in the project.
-
+```c++
+```
 
 
  #### 2. Obstacle Detection
 - The methods in the code should avoid unnecessary calculations.
+```c++
+```
