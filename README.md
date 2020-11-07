@@ -16,6 +16,9 @@ During this project some key algortihms were implemented from scratch e.g:
   - **bounding box detection**
  
  
+ 
+ 
+----------------------------------------------------------------------------------------------------------------------
 #### 1. Compiling and Testing
 - The submission must compile.
 ```c++
