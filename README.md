@@ -5,9 +5,9 @@
 <img src="media/ObstacleDetectionFPS.gif" width="700" height="400" />
 
 During this project some key algortihms were implemented from scratch e.g:
-  - **RANSAC**
-  - **K-d Tree**
-  - **Eucledean Clustering** 
+  - [**RANSAC**](https://github.com/adamanov/SFND_Lidar_Obstacle_Detection/blob/master/src/quiz/ransac/ransac2d.cpp)
+  - [**K-d Tree**](https://github.com/adamanov/SFND_Lidar_Obstacle_Detection/blob/master/src/quiz/cluster/kdtree.h)
+  - [**Eucledean Clustering**](https://github.com/adamanov/SFND_Lidar_Obstacle_Detection/blob/master/src/quiz/cluster/cluster.cpp) 
  
  
  
