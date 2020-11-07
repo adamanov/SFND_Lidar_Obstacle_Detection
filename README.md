@@ -36,7 +36,7 @@ During this project some key algortihms were implemented from scratch e.g:
 ```
 
 
- #### 2. Obstacle Detection
+ #### 3. Code Efficiency
 - The methods in the code should avoid unnecessary calculations.
 ```c++
 ```
