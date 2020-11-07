@@ -9,12 +9,6 @@ During this project some key algortihms were implemented from scratch e.g:
   - **K-d Tree**
   - **EucledeanClustering** 
  
- Developed Segmentation of lidar **obstacle detection** thorugh stream of pcd files and performed:
-  - **filtering**
-  - **segmentation**
-  - **clustering**-
-  - **bounding box detection**
- 
  
  
  
@@ -25,6 +19,9 @@ During this project some key algortihms were implemented from scratch e.g:
 ```
 
 #### 2. Obstacle Detection
+- Filtering the point cloud
+```c++
+```
 - Bounding boxes enclose appropriate objects.
 ```c++
 ```
