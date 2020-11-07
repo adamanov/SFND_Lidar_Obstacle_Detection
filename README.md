@@ -7,7 +7,7 @@
 During this project some key algortihms were implemented from scratch e.g:
   - **RANSAC**
   - **K-d Tree**
-  - **EucledeanClustering** 
+  - **Eucledean Clustering** 
  
  
  
