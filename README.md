@@ -40,3 +40,6 @@ During this project some key algortihms were implemented from scratch e.g:
 - The methods in the code should avoid unnecessary calculations.
 ```c++
 ```
+#### References
+- [Tutorials: PhD-3D-Object-Tracking](https://robotica.unileon.es/index.php/PhD-3D-Object-Tracking)
+- [PCL](http://www.pcl-users.org/)
